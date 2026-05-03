@@ -123,7 +123,7 @@ pipeline {
                                 -Dsonar.projectKey=${APP_NAME}-${APP_ID} \
                                 -Dsonar.projectName=${APP_NAME} \
                                 -Dsonar.sources=${env.PKG_ROOT} \
-                                -Dsonar.host.url=http://YOUR_VM_IP:9000 \
+                                -Dsonar.host.url=http://192.168.122.127:9000 \
                                 -Dsonar.login=$SONAR_TOKEN
                             """
                         }
